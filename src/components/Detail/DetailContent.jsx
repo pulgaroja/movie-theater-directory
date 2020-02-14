@@ -49,7 +49,7 @@ const DetailContent = ({ movie }) => {
           <li key={id}>{name}</li>
         ))}
       </ul>
-      <p className="title">Production Country/Countries</p>
+      <p className="title">Production Country / Countries</p>
       <ul>
         {movie.production_countries.map(({ name }, i) => (
           <li key={i}>{name}</li>

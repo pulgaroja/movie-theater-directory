@@ -1,5 +1,11 @@
 {
-  "name": "code-challenge-rockstar-coders",
+  "name": "movie-theater-directory",
+  "description": "A simple and beautiful movie directory meant to bring in new audiences to our local theater.",
+  "author": {
+    "name": "Cristina Rojas Soto",
+    "email": "crojassoto@gmail.com"
+  },
+  "homepage": "http://pulgaroja.github.io/movie-theater-directory",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

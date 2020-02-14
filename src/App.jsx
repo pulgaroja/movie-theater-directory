@@ -160,7 +160,7 @@ const App = () => {
   }
 
   return (
-    <Router>
+    <Router basename="/movie-theater-directory">
       <div className="App">
         <Header
           search={search}
