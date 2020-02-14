@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/movie-theater-directory/static/css/main.81ce8fef.chunk.css",
+    "main.js": "/movie-theater-directory/static/js/main.bd902851.chunk.js",
+    "main.js.map": "/movie-theater-directory/static/js/main.bd902851.chunk.js.map",
+    "runtime-main.js": "/movie-theater-directory/static/js/runtime-main.d36a303b.js",
+    "runtime-main.js.map": "/movie-theater-directory/static/js/runtime-main.d36a303b.js.map",
+    "static/js/2.743a5ce5.chunk.js": "/movie-theater-directory/static/js/2.743a5ce5.chunk.js",
+    "static/js/2.743a5ce5.chunk.js.map": "/movie-theater-directory/static/js/2.743a5ce5.chunk.js.map",
+    "index.html": "/movie-theater-directory/index.html",
+    "precache-manifest.52e06e3f5bd2f0e9c049fd7b499fc320.js": "/movie-theater-directory/precache-manifest.52e06e3f5bd2f0e9c049fd7b499fc320.js",
+    "service-worker.js": "/movie-theater-directory/service-worker.js",
+    "static/css/main.81ce8fef.chunk.css.map": "/movie-theater-directory/static/css/main.81ce8fef.chunk.css.map",
+    "static/js/2.743a5ce5.chunk.js.LICENSE.txt": "/movie-theater-directory/static/js/2.743a5ce5.chunk.js.LICENSE.txt",
+    "static/media/headerBackground.jpeg": "/movie-theater-directory/static/media/headerBackground.d26eab9e.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d36a303b.js",
+    "static/js/2.743a5ce5.chunk.js",
+    "static/css/main.81ce8fef.chunk.css",
+    "static/js/main.bd902851.chunk.js"
+  ]
+}
