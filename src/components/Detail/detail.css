@@ -1,0 +1,87 @@
+.content {
+  max-width: 1240px;
+  margin: 40px auto;
+}
+
+.detail-header {
+  display: flex;
+  padding: 0px 40px;
+  /* This will overlap the header to provide the desired effect */
+  margin-top: -450px;
+  width: calc(100% - 80px);
+  color: white;
+}
+
+.detail-header img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.information {
+  width: calc(100% - 290px);
+  padding: 0px 20px;
+  font-size: 20px;
+  text-align: start;
+}
+
+.date {
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 800;
+  margin: 5px 0px;
+}
+
+.genres strong {
+  margin-left: 10px;
+}
+
+.detail {
+  padding: 40px;
+  font-size: 20px;
+  text-align: start;
+}
+
+.detail .title {
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin: 40px 0px;
+}
+
+.detail .currency {
+  float: right;
+}
+
+/* Responsive CSS */
+
+/* Tablets devices */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .detail-header {
+    margin-top: -50%;
+  }
+  .detail-header img {
+    width: 50%;
+  }
+}
+
+/* Small devices */
+@media only screen and (max-width: 600px) {
+  .detail-header {
+    flex-direction: column-reverse;
+    margin-top: -500px;
+  }
+  .detail-header img {
+    width: 100%;
+  }
+  .information {
+    width: 100%;
+    margin-top: 40px;
+    padding: 0;
+  }
+}

@@ -1,0 +1,30 @@
+.ratings {
+  display: flex;
+  align-content: center;
+}
+
+.ratings button {
+  border: none;
+  height: 16px;
+  width: 16px;
+  margin: 0px 2px;
+  padding: 0px;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.ratings button:hover {
+  background-color: transparent;
+  opacity: 0.6;
+}
+
+.ratings button:first-of-type {
+  margin-left: 10px;
+}
+
+.ratings button:last-of-type {
+  margin-right: 20px;
+}
